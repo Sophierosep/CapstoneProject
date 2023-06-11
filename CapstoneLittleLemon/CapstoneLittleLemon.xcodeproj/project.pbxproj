@@ -11,6 +11,9 @@
 		3B353DF52A31210E00EF257E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B353DF42A31210E00EF257E /* Assets.xcassets */; };
 		3B353DF82A31210E00EF257E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B353DF72A31210E00EF257E /* Preview Assets.xcassets */; };
 		3B353DFF2A34C55600EF257E /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B353DFE2A34C55600EF257E /* Onboarding.swift */; };
+		3B353E012A35E72100EF257E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B353E002A35E72100EF257E /* Home.swift */; };
+		3B353E032A35E7B400EF257E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B353E022A35E7B400EF257E /* Menu.swift */; };
+		3B353E052A35F7C400EF257E /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B353E042A35F7C400EF257E /* UserProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		3B353DF42A31210E00EF257E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B353DF72A31210E00EF257E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B353DFE2A34C55600EF257E /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		3B353E002A35E72100EF257E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3B353E022A35E7B400EF257E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		3B353E042A35F7C400EF257E /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				3B353DF02A31210D00EF257E /* CapstoneLittleLemonApp.swift */,
 				3B353DFE2A34C55600EF257E /* Onboarding.swift */,
+				3B353E042A35F7C400EF257E /* UserProfile.swift */,
+				3B353E002A35E72100EF257E /* Home.swift */,
+				3B353E022A35E7B400EF257E /* Menu.swift */,
 				3B353DF42A31210E00EF257E /* Assets.xcassets */,
 				3B353DF62A31210E00EF257E /* Preview Content */,
 			);
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B353DFF2A34C55600EF257E /* Onboarding.swift in Sources */,
+				3B353E012A35E72100EF257E /* Home.swift in Sources */,
+				3B353E052A35F7C400EF257E /* UserProfile.swift in Sources */,
+				3B353E032A35E7B400EF257E /* Menu.swift in Sources */,
 				3B353DF12A31210D00EF257E /* CapstoneLittleLemonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
