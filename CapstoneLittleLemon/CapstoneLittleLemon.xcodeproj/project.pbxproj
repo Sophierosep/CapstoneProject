@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3B353DF12A31210D00EF257E /* CapstoneLittleLemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B353DF02A31210D00EF257E /* CapstoneLittleLemonApp.swift */; };
-		3B353DF32A31210D00EF257E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B353DF22A31210D00EF257E /* ContentView.swift */; };
 		3B353DF52A31210E00EF257E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B353DF42A31210E00EF257E /* Assets.xcassets */; };
 		3B353DF82A31210E00EF257E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B353DF72A31210E00EF257E /* Preview Assets.xcassets */; };
+		3B353DFF2A34C55600EF257E /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B353DFE2A34C55600EF257E /* Onboarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B353DED2A31210D00EF257E /* CapstoneLittleLemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneLittleLemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B353DF02A31210D00EF257E /* CapstoneLittleLemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneLittleLemonApp.swift; sourceTree = "<group>"; };
-		3B353DF22A31210D00EF257E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B353DF42A31210E00EF257E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B353DF72A31210E00EF257E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B353DFE2A34C55600EF257E /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				3B353DF02A31210D00EF257E /* CapstoneLittleLemonApp.swift */,
-				3B353DF22A31210D00EF257E /* ContentView.swift */,
+				3B353DFE2A34C55600EF257E /* Onboarding.swift */,
 				3B353DF42A31210E00EF257E /* Assets.xcassets */,
 				3B353DF62A31210E00EF257E /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B353DF32A31210D00EF257E /* ContentView.swift in Sources */,
+				3B353DFF2A34C55600EF257E /* Onboarding.swift in Sources */,
 				3B353DF12A31210D00EF257E /* CapstoneLittleLemonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
