@@ -12,38 +12,32 @@ struct DishDetail: View {
 
     var body: some View {
         VStack {
-            AsyncImage(url: URL(string: dish.image ?? "")) { image in
-                    image.resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 150, height: 150)
-            
+            AsyncImage(url: URL(string: dish.image ?? "")){
+                image in image
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width:350, height: 100)
+                    .clipped()
             } placeholder: {
-                Color.gray
+                ProgressView()
             }
             .frame(maxWidth: .infinity, maxHeight: 250)
             .scaledToFit()
             .padding()
             
-            Text(dish.title ?? "")
-                .font(.title)
-                .fontWeight(.bold)
-                .padding()
-            Text("Price: \(dish.price ?? "")")
-                .font(.headline)
-                .fontWeight(.semibold)
-                .padding()
-            
-            Spacer()
+            Text("\(dish.dishDescription ?? "")")
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .fontWeight(.light)
+                .padding(.leading, 20)
+
+            Text("£\(dish.price ?? "").00")
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .fontWeight(.medium)
+                .padding(2)
+                .padding(.leading, 20)
+
         }
         .navigationBarTitle(Text(dish.title ?? ""), displayMode: .inline)
     }
 }
 
-
-
-
-//struct DishDetail_Previews: PreviewProvider {
-//    static var previews: some View {
-//        DishDetail(dish:Dish)
-//    }
-//}
